@@ -7,9 +7,11 @@ The Jupyter Notebook `TripletNeuralNetwork.ipynb` is also the source code for th
 
 > Florian Euchner, Stephan ten Brink: "ESPARGOS: Phase-Coherent WiFi CSI Datasets for Wireless Sensing Research"
 
-All WiFi CSI data is for 40 MHz wide WiFi channels at 2.4GHz.
+In that paper, we present ESPARGOS datasets, which is a collection of publicly available WiFi Channel State Information datasets with large numbers of phase-synchronous MIMO antennas.
+We consider [Channel Charting](https://channelcharting.github.io/) as one potential application of these datasets.
+The advantage of ESPARGOS over our previous [DICHASUS](https://dichasus.inue.uni-stuttgart.de/) datasets is that ESPARGOS works with standard WiFi devices and is realtime-capable, making it very easy to transfer research results into practical applications.
 
-**Objective**: Achieve absolute or at least relative localization of the transmitter using Channel Charting.
+**Objective of Channel Charting**: Perform absolute or at least relative localization of the transmitter.
 
 ## Summary and Results
 
