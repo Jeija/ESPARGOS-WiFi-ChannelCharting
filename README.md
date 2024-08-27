@@ -17,7 +17,7 @@ All WiFi CSI data is for 40 MHz wide WiFi channels at 2.4GHz.
 * Four distributed 4 &times; 2 ESPARGOS antenna arrays, dominant LoS path
 * ["AoA-Augmented Channel Charting"](https://github.com/Jeija/ToA-AoA-Augmented-ChannelCharting/): Siamese Neural Network-based Channel Charting (with fused CSI-based / timestamp-based dissimilarity metric) is augmented by classical triangulation
 
-<img alt="Setp of espargos-0001" src="img/espargos-0001-setup.jpg" width=320>
+<img alt="Measurement setup for dataset espargos-0001" src="img/espargos-0001-setup.jpg" width=400>
 
 <table>
     <tr>
@@ -59,9 +59,11 @@ CT = Continuity, TW = Trustworthiness, KS = Kruskal Stress, MAE = Mean Absolute 
 
 ### Triplet Neural Network-based Channel Charting applied to [`espargos-0002`](https://espargos.net/datasets/data/espargos-0002/): `TripletNeuralNetwork.ipynb`
 * One large 8 &times; 4 ESPARGOS antenna array
-* Metal wall to ensure NLoS propagation in large parts of measurement area
+* Metal wall to ensure NLoS propagation in large parts of measurement area (whenever robot is behind wall from point of view of antenna array)
 * Triplet Neural Network learns channel chart based on CSI data and timestamps
 * No augmentation with model-based approach: The channel chart coordinates can be arbitrarily translated / rotated / scaled / flipped (affine transformation) compared to the true physical coordinates.
+
+<img alt="Measurement setup for dataset espargos-0002" src="img/espargos-0002-setup.jpg" width=400>
 
 <table>
     <tr>
