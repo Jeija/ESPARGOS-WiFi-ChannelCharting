@@ -132,3 +132,4 @@ It should also be possible to run our notebooks on less performant systems.
 * [Our tutorial on dissimilarity metric-based Channel Charting](https://dichasus.inue.uni-stuttgart.de/tutorials/tutorial/dissimilarity-metric-channelcharting/)
 * [Our tutorial on Triplet Neural Network-based Channel Charting](https://dichasus.inue.uni-stuttgart.de/tutorials/tutorial/channelcharting/)
 * [Good recent paper on joint ToA / AoA-based localization](https://arxiv.org/pdf/2207.08512.pdf)
+* [Other paper doing something similar to WiFi-based Channel Charting, but calling it "WiCluster"](https://arxiv.org/abs/2107.01002)
